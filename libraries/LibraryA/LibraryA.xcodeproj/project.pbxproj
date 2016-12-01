@@ -10,7 +10,6 @@
 		DA40C3FB1DF050D800BD5D62 /* LibraryA.h in Headers */ = {isa = PBXBuildFile; fileRef = DA40C3F91DF050D800BD5D62 /* LibraryA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA40C4031DF050F000BD5D62 /* XNGLibraryA.h in Headers */ = {isa = PBXBuildFile; fileRef = DA40C4011DF050F000BD5D62 /* XNGLibraryA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA40C4041DF050F000BD5D62 /* XNGLibraryA.m in Sources */ = {isa = PBXBuildFile; fileRef = DA40C4021DF050F000BD5D62 /* XNGLibraryA.m */; };
-		DA40C4471DF055A600BD5D62 /* library.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DA40C4461DF055A600BD5D62 /* library.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,7 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA40C4471DF055A600BD5D62 /* library.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

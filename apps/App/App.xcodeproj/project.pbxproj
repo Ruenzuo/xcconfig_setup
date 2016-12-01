@@ -30,6 +30,7 @@
 		DA40C3E61DF050B200BD5D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA40C4061DF0511400BD5D62 /* LibraryA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibraryA.framework; path = "../../libraries/LibraryA/build/Debug-iphoneos/LibraryA.framework"; sourceTree = "<group>"; };
 		DA40C4211DF0526300BD5D62 /* LibraryB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibraryB.framework; path = "../../libraries/LibraryB/build/Debug-iphoneos/LibraryB.framework"; sourceTree = "<group>"; };
+		DA40C44A1DF056D500BD5D62 /* app.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = app.xcconfig; path = ../../xcconfigs/app.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		DA40C3C91DF050B200BD5D62 = {
 			isa = PBXGroup;
 			children = (
+				DA40C44A1DF056D500BD5D62 /* app.xcconfig */,
 				DA40C3D41DF050B200BD5D62 /* App */,
 				DA40C3D31DF050B200BD5D62 /* Products */,
 				DA40C4051DF0511400BD5D62 /* Frameworks */,
@@ -286,6 +288,7 @@
 		};
 		DA40C3EA1DF050B200BD5D62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA40C44A1DF056D500BD5D62 /* app.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -298,6 +301,7 @@
 		};
 		DA40C3EB1DF050B200BD5D62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA40C44A1DF056D500BD5D62 /* app.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -327,6 +331,7 @@
 				DA40C3EB1DF050B200BD5D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
