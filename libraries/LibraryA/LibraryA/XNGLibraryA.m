@@ -7,6 +7,7 @@
 //
 
 #import "XNGLibraryA.h"
+#import <AFNetworking/AFNetworking.h>
 
 @implementation XNGLibraryA
 

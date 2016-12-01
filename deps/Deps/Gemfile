@@ -1,0 +1,4 @@
+source "https://rubygems.org"
+
+gem 'cocoapods', '1.1.1'
+gem 'cocoapods-rome', git: 'git://github.com/CocoaPods/Rome.git', branch: 'seg-fourflusher-bump'

@@ -1,0 +1,7 @@
+!include "rome.xcconfig"
+
+setting FRAMEWORK_SEARCH_PATHS inherits {
+  for * {
+    $(ROME_FRAMEWORK_SEARCH_PATH)
+  }
+}

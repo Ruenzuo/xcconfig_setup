@@ -10,6 +10,7 @@
 		DA40C3FB1DF050D800BD5D62 /* LibraryA.h in Headers */ = {isa = PBXBuildFile; fileRef = DA40C3F91DF050D800BD5D62 /* LibraryA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA40C4031DF050F000BD5D62 /* XNGLibraryA.h in Headers */ = {isa = PBXBuildFile; fileRef = DA40C4011DF050F000BD5D62 /* XNGLibraryA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA40C4041DF050F000BD5D62 /* XNGLibraryA.m in Sources */ = {isa = PBXBuildFile; fileRef = DA40C4021DF050F000BD5D62 /* XNGLibraryA.m */; };
+		DA40C4471DF055A600BD5D62 /* library.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DA40C4461DF055A600BD5D62 /* library.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		DA40C3FA1DF050D800BD5D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA40C4011DF050F000BD5D62 /* XNGLibraryA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNGLibraryA.h; sourceTree = "<group>"; };
 		DA40C4021DF050F000BD5D62 /* XNGLibraryA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNGLibraryA.m; sourceTree = "<group>"; };
+		DA40C4461DF055A600BD5D62 /* library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = library.xcconfig; path = ../../../xcconfigs/library.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		DA40C3F81DF050D800BD5D62 /* LibraryA */ = {
 			isa = PBXGroup;
 			children = (
+				DA40C4461DF055A600BD5D62 /* library.xcconfig */,
 				DA40C3F91DF050D800BD5D62 /* LibraryA.h */,
 				DA40C3FA1DF050D800BD5D62 /* Info.plist */,
 				DA40C4011DF050F000BD5D62 /* XNGLibraryA.h */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA40C4471DF055A600BD5D62 /* library.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +247,7 @@
 		};
 		DA40C3FF1DF050D800BD5D62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA40C4461DF055A600BD5D62 /* library.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -261,6 +266,7 @@
 		};
 		DA40C4001DF050D800BD5D62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA40C4461DF055A600BD5D62 /* library.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -296,6 +302,7 @@
 				DA40C4001DF050D800BD5D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

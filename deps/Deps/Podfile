@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+
+plugin 'cocoapods-rome'
+
+target 'Deps' do
+  use_frameworks!
+  pod 'AFNetworking'
+end

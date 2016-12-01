@@ -1,0 +1,5 @@
+setting ROME_FRAMEWORK_SEARCH_PATH inherits {
+  for * {
+    $(PROJECT_DIR)/../../deps/Deps/Rome/**
+  }
+}
