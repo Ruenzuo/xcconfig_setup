@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:libraries/LibraryB/LibraryB.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libraries/LibraryA/LibraryA.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:apps/App/App.xcodeproj">
+   </FileRef>
+</Workspace>
