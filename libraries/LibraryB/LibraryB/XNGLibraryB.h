@@ -10,6 +10,6 @@
 
 @interface XNGLibraryB : NSObject
 
-- (void)doSomethingElse;
+- (NSString *)doSomethingElse;
 
 @end

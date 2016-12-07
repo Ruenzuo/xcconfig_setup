@@ -11,8 +11,11 @@
 
 @implementation XNGLibraryB
 
-- (void)doSomethingElse {
-    NSLog(@"Something else");
+- (NSString *)doSomethingElse {
+#ifdef XING_MAIN_APP
+    return @"Something in the main app";
+#endif
+    return @"Something in the DST pod";
 }
 
 @end

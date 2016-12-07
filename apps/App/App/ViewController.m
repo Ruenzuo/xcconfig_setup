@@ -13,6 +13,9 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UILabel *libraryALabel;
+@property (nonatomic, weak) IBOutlet UILabel *libraryBLabel;
+
 @end
 
 @implementation ViewController
@@ -21,10 +24,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     XNGLibraryA *libraryA = [[XNGLibraryA alloc] init];
-    [libraryA doSomething];
+    self.libraryALabel.text = [libraryA doSomething];
     
     XNGLibraryB *libraryB = [[XNGLibraryB alloc] init];
-    [libraryB doSomethingElse];
+    self.libraryBLabel.text = [libraryB doSomethingElse];
 }
 
 

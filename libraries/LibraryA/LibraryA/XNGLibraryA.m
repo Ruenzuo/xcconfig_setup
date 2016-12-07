@@ -11,8 +11,11 @@
 
 @implementation XNGLibraryA
 
-- (void)doSomething {
-    NSLog(@"Something");
+- (NSString *)doSomething {
+#ifdef XING_MAIN_APP
+    return @"Something in the main app";
+#endif
+    return @"Something in the DST pod";
 }
 
 @end

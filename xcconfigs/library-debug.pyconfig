@@ -1,0 +1,14 @@
+export "library.xcconfig"
+!include "rome.xcconfig"
+
+setting FRAMEWORK_SEARCH_PATHS inherits {
+  for * {
+    $(ROME_FRAMEWORK_SEARCH_PATH)
+  }
+}
+
+setting GCC_PREPROCESSOR_DEFINITIONS inherits {
+  for * {
+    XING_MAIN_APP=1
+  }
+}
