@@ -22,6 +22,7 @@
 		DA65BD0C1DFB09B900B33232 /* LibraryG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65BD0B1DFB09B900B33232 /* LibraryG.framework */; };
 		DA65BD291DFB0B1D00B33232 /* LibraryH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65BD281DFB0B1D00B33232 /* LibraryH.framework */; };
 		DA65BD441DFB0D0D00B33232 /* LibraryI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65BD431DFB0D0D00B33232 /* LibraryI.framework */; };
+		DA65BD631DFB0EF000B33232 /* LibraryJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65BD621DFB0EF000B33232 /* LibraryJ.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		DA65BD0B1DFB09B900B33232 /* LibraryG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibraryG.framework; path = "../../libraries/LibraryG/build/Debug-iphoneos/LibraryG.framework"; sourceTree = "<group>"; };
 		DA65BD281DFB0B1D00B33232 /* LibraryH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibraryH.framework; path = "../../libraries/LibraryH/build/Debug-iphoneos/LibraryH.framework"; sourceTree = "<group>"; };
 		DA65BD431DFB0D0D00B33232 /* LibraryI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibraryI.framework; path = "../../libraries/LibraryI/build/Debug-iphoneos/LibraryI.framework"; sourceTree = "<group>"; };
+		DA65BD621DFB0EF000B33232 /* LibraryJ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LibraryJ.framework; path = "../../libraries/LibraryJ/build/Debug-iphoneos/LibraryJ.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA65BD631DFB0EF000B33232 /* LibraryJ.framework in Frameworks */,
 				DA65BD441DFB0D0D00B33232 /* LibraryI.framework in Frameworks */,
 				DA65BD291DFB0B1D00B33232 /* LibraryH.framework in Frameworks */,
 				DA65BD0C1DFB09B900B33232 /* LibraryG.framework in Frameworks */,
@@ -112,6 +115,7 @@
 		DA40C4051DF0511400BD5D62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA65BD621DFB0EF000B33232 /* LibraryJ.framework */,
 				DA65BD431DFB0D0D00B33232 /* LibraryI.framework */,
 				DA65BD281DFB0B1D00B33232 /* LibraryH.framework */,
 				DA65BD0B1DFB09B900B33232 /* LibraryG.framework */,
