@@ -10,6 +10,7 @@
 #import <AFNetworking/AFNetworking.h>
 @import LibraryA;
 @import LibraryB;
+@import LibraryC;
 
 @interface ViewController ()
 
@@ -28,6 +29,9 @@
     
     XNGLibraryB *libraryB = [[XNGLibraryB alloc] init];
     self.libraryBLabel.text = [libraryB doSomethingElse];
+
+    XNGLibraryC *libraryC = [[XNGLibraryC alloc] init];
+    NSLog(@"%@", [libraryC doSomethingElse]);
 }
 
 
