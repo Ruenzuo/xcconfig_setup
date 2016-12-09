@@ -13,6 +13,7 @@
 @import LibraryC;
 @import LibraryD;
 @import LibraryE;
+@import LibraryF;
 
 @interface ViewController ()
 
@@ -40,6 +41,9 @@
 
     XNGLibraryE *libraryE = [[XNGLibraryE alloc] init];
     NSLog(@"%@", [libraryE doSomethingElse]);
+
+    XNGLibraryF *libraryF = [[XNGLibraryF alloc] init];
+    NSLog(@"%@", [libraryF doSomethingElse]);
 }
 
 

@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA65BCE21DFB071E00B33232 /* LibraryF.h in Headers */ = {isa = PBXBuildFile; fileRef = DA65BCE01DFB071E00B33232 /* LibraryF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA65BCEA1DFB072F00B33232 /* XNGLibraryF.h in Headers */ = {isa = PBXBuildFile; fileRef = DA65BCE81DFB072F00B33232 /* XNGLibraryF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA65BCEB1DFB072F00B33232 /* XNGLibraryF.m in Sources */ = {isa = PBXBuildFile; fileRef = DA65BCE91DFB072F00B33232 /* XNGLibraryF.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA65BCDD1DFB071E00B33232 /* LibraryF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA65BCE01DFB071E00B33232 /* LibraryF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryF.h; sourceTree = "<group>"; };
+		DA65BCE11DFB071E00B33232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA65BCE81DFB072F00B33232 /* XNGLibraryF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNGLibraryF.h; sourceTree = "<group>"; };
+		DA65BCE91DFB072F00B33232 /* XNGLibraryF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNGLibraryF.m; sourceTree = "<group>"; };
+		DA65BCEE1DFB077C00B33232 /* library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = library.xcconfig; path = ../../../xcconfigs/library.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA65BCD91DFB071E00B33232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA65BCD31DFB071E00B33232 = {
+			isa = PBXGroup;
+			children = (
+				DA65BCDF1DFB071E00B33232 /* LibraryF */,
+				DA65BCDE1DFB071E00B33232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA65BCDE1DFB071E00B33232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA65BCDD1DFB071E00B33232 /* LibraryF.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA65BCDF1DFB071E00B33232 /* LibraryF */ = {
+			isa = PBXGroup;
+			children = (
+				DA65BCEE1DFB077C00B33232 /* library.xcconfig */,
+				DA65BCE01DFB071E00B33232 /* LibraryF.h */,
+				DA65BCE11DFB071E00B33232 /* Info.plist */,
+				DA65BCE81DFB072F00B33232 /* XNGLibraryF.h */,
+				DA65BCE91DFB072F00B33232 /* XNGLibraryF.m */,
+			);
+			path = LibraryF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DA65BCDA1DFB071E00B33232 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA65BCE21DFB071E00B33232 /* LibraryF.h in Headers */,
+				DA65BCEA1DFB072F00B33232 /* XNGLibraryF.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA65BCDC1DFB071E00B33232 /* LibraryF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA65BCE51DFB071E00B33232 /* Build configuration list for PBXNativeTarget "LibraryF" */;
+			buildPhases = (
+				DA65BCD81DFB071E00B33232 /* Sources */,
+				DA65BCD91DFB071E00B33232 /* Frameworks */,
+				DA65BCDA1DFB071E00B33232 /* Headers */,
+				DA65BCDB1DFB071E00B33232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibraryF;
+			productName = LibraryF;
+			productReference = DA65BCDD1DFB071E00B33232 /* LibraryF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA65BCD41DFB071E00B33232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "XING AG";
+				TargetAttributes = {
+					DA65BCDC1DFB071E00B33232 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HL5ZSFTL5F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA65BCD71DFB071E00B33232 /* Build configuration list for PBXProject "LibraryF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA65BCD31DFB071E00B33232;
+			productRefGroup = DA65BCDE1DFB071E00B33232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA65BCDC1DFB071E00B33232 /* LibraryF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA65BCDB1DFB071E00B33232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA65BCD81DFB071E00B33232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA65BCEB1DFB072F00B33232 /* XNGLibraryF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA65BCE31DFB071E00B33232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA65BCE41DFB071E00B33232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA65BCE61DFB071E00B33232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA65BCEE1DFB077C00B33232 /* library.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HL5ZSFTL5F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryF/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xing.LibraryF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA65BCE71DFB071E00B33232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA65BCEE1DFB077C00B33232 /* library.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HL5ZSFTL5F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LibraryF/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xing.LibraryF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA65BCD71DFB071E00B33232 /* Build configuration list for PBXProject "LibraryF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA65BCE31DFB071E00B33232 /* Debug */,
+				DA65BCE41DFB071E00B33232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA65BCE51DFB071E00B33232 /* Build configuration list for PBXNativeTarget "LibraryF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA65BCE61DFB071E00B33232 /* Debug */,
+				DA65BCE71DFB071E00B33232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA65BCD41DFB071E00B33232 /* Project object */;
+}
