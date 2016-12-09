@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:libraries/LibraryG/LibraryG.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:libraries/LibraryF/LibraryF.xcodeproj">
    </FileRef>
    <FileRef
