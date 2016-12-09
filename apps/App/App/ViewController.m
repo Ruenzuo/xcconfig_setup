@@ -16,6 +16,7 @@
 @import LibraryF;
 @import LibraryG;
 @import LibraryH;
+@import LibraryI;
 
 @interface ViewController ()
 
@@ -52,6 +53,9 @@
 
     XNGLibraryH *libraryH = [[XNGLibraryH alloc] init];
     NSLog(@"%@", [libraryH doSomethingElse]);
+
+    XNGLibraryI *libraryI = [[XNGLibraryI alloc] init];
+    NSLog(@"%@", [libraryI doSomethingElse]);
 }
 
 
