@@ -1,15 +1,15 @@
 //
-//  XNGLibraryG.m
-//  LibraryG
+//  XNGLibraryH.m
+//  LibraryH
 //
 //  Created by Renzo Crisostomo on 09/12/16.
 //  Copyright © 2016 XING AG. All rights reserved.
 //
 
-#import "XNGLibraryG.h"
+#import "XNGLibraryH.h"
 #import <AFNetworking/AFNetworking.h>
 
-@implementation XNGLibraryG
+@implementation XNGLibraryH
 
 - (NSString *)doSomethingElse {
 #ifdef XING_MAIN_APP
